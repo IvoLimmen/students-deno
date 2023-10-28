@@ -1,0 +1,11 @@
+{
+  "importMap": "./imports.json",
+  "tasks": {
+    "dev": "deno run app.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}
